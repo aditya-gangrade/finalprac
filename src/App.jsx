@@ -2,7 +2,10 @@
 
 const App = () => {
   return (
-    <div>Apphello</div>
+    <><div className="bg-red-100">Apphello</div>
+    <button onClick={()=>alert()}></button>
+    </>
+    
   )
 }
 
